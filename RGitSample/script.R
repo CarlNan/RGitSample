@@ -187,6 +187,7 @@ rxSplit(inData = outFileFinal,
         rngSeed = 17,
         consoleOutput = TRUE)
 
+
 # Point to the .xdf files for the training and test set.
 train <- RxXdfData(paste0(td, "/modelData.splitVar.Train.xdf"))
 test <- RxXdfData(paste0(td, "/modelData.splitVar.Test.xdf"))
